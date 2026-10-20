@@ -479,10 +479,10 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
   </div></section>
 
   <section class="scene" id="sc-unseen"><div class="cards">
-    <div class="card rv" id="c1"><span class="ic">☀</span><span>dậy g</span></div>
-    <div class="card rv" id="c2"><span class="ic">✿</span><span>nhớ mọi sinh nhật, mọi lời dặn, mọi chuyện nhỏ của người thân</span></div>
-    <div class="card rv" id="c3"><span class="ic">☾</span><span>nói “mình ổn” dù đôi khi đã rất mệt</span></div>
-    <div class="card rv" id="c4"><span class="ic">✦</span><span>vừa lo cho người khác, vừa cố giữ ước mơ của riêng mình</span></div>
+    <div class="card rv" id="c1"><span class="ic">☀</span><span>Mang lại năng lượng tích cực và sự ấm áp cho mọi người mỗi ngày</span></div>
+    <div class="card rv" id="c2"><span class="ic">✿</span><span>Luôn dịu dàng, chu đáo và biết ơn trong từng việc nhỏ ở gia đình lẫn Hội Thánh.</span></div>
+    <div class="card rv" id="c3"><span class="ic">☾</span><span>Giữ vững lòng tin yêu và sự khiêm nhường ngay cả khi đối diện với những thử thách trong cuộc sống.</span></div>
+    <div class="card rv" id="c4"><span class="ic">✦</span><span>Giữ trọn vẹn niềm tin yêu và đời sống đẹp lòng Ngài giữa đời này</span></div>
   </div></section>
 
   <section class="scene" id="sc-health"><div class="health">
