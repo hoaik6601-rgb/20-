@@ -570,20 +570,6 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     </div>
   </div></section>
 
-    <div class="f-act">      
-      <button id="b-link" class="alt" hidden>chép link</button>      
-      <button id="b-replay" class="alt">xem lại</button>    
-    </div>  </div></section>
-
-    <div class="f-act">      
-      <button id="b-link" class="alt" hidden>chép link</button>      
-      <button id="b-replay" class="alt">xem lại</button>    
-    </div>  </div></section>
-    <div class="f-act">      
-      <button id="b-link" class="alt" hidden>chép link</button>      
-      <button id="b-replay" class="alt">xem lại</button>    
-    </div>  </div></section>
-
   <!-- ===== Nụ — nhân vật gốc ===== -->
   <div id="nu" class="wave" aria-hidden="true">
     <div class="nu-glow"></div>
