@@ -482,7 +482,7 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     <div class="card rv" id="c1"><span class="ic">☀</span><span>Mang lại năng lượng tích cực và sự ấm áp cho mọi người mỗi ngày</span></div>
     <div class="card rv" id="c2"><span class="ic">✿</span><span>Luôn dịu dàng, chu đáo và biết ơn trong từng việc nhỏ ở gia đình lẫn Hội Thánh</span></div>
     <div class="card rv" id="c3"><span class="ic">☾</span><span>Giữ vững lòng tin yêu và sự khiêm nhường ngay cả khi đối diện với những thử thách trong cuộc sống</span></div>
-    <div class="card rv" id="c4"><span class="ic">✦</span><span>Giữ trọn vẹn niềm tin yêu và đời sống đẹp lòng Ngài giữa đời này</span></div>
+    <div class="card rv" id="c4"><span class="ic">✦</span><span>Âm thầm cầu thay, chia sẻ và nâng đỡ những người xung quanh</span></div>
   </div></section>
 
   <section class="scene" id="sc-health"><div class="health">
@@ -640,8 +640,8 @@ const S=[
  {scene:'none', mode:'hero', say:'nên hôm nay, đến lượt <em>cậu</em> được quan tâm', bars:2, mood:'happy', fx:{petals:1.1}},
 
  {say:'tớ xin gửi cậu bốn lời chúc nhé', bars:1.5, mood:'wave', bg:2},
- {scene:'health', mode:'side', say:'chúc cậu thật nhiều <em>sức khỏe</em> — để còn đi hết những nơi cậu muốn đến', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}},
- {scene:'peace', say:'chúc cậu <em>bình yên</em> — dù ngoài kia có ồn ào thế nào', bars:2.2, mood:'talk', bg:1},
+ {scene:'health', mode:'side', say:'chúc cậu thật nhiều <em>sức khỏe</em> — để có  đi hết những nơi cậu muốn đến', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}},
+ {scene:'peace', say:'chúc cậu <em>luôn ngập tràn ơn phước</em>và niềm vui trên mỗi bước đường đi cùng Ngài ', bars:2.2, mood:'talk', bg:1},
  {scene:'free', say:'chúc cậu đủ <em>tự do</em> để làm điều mình thích, và đủ dũng cảm để theo đuổi nó', bars:2.5, mood:'talk', bg:0, fx:{lantern:1,meteor:.8}},
  {scene:'love', say:'chúc cậu luôn được <em>yêu thương</em> — đúng cách, đúng người, và cả bởi chính cậu', bars:2.5, mood:'happy', bg:2, fx:{hearts:1,petals:.3}},
 
