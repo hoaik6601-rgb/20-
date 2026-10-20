@@ -1,0 +1,31 @@
+/* ================= KỊCH BẢN ĐẠO TIN LÀNH ================= */
+const S=[ 
+  {say:TO?'này <em>'+esc(TO)+'</em> ơi!':'này chị em ơi!', bars:1.1, mood:'wave', mode:'hero', bg:0, fx:{meteor:1}}, 
+  {say:'hôm nay là một ngày đặc biệt để chúng ta cùng nhìn lại và tạ ơn Chúa…', bars:1.8, mood:'talk'}, 
+  {say:'vì Chúa đã đặt để mỗi người nữ chúng ta ở đây với những sứ mệnh tuyệt vời!', bars:1.9, mood:'shy'}, 
+  {say:'nhân ngày Phụ nữ Việt Nam 20/10…', bars:1.5, mood:'talk'}, 
+  {scene:'date', mode:'side', say:'nguyện xin Chúa ban phước trên cuộc đời cậu!', bars:2, mood:'happy', bg:2, fx:{petals:.7,meteor:1}},
+
+  {scene:'unseen', say:'trong nhà Chúa và trong cuộc sống hằng ngày…', bars:2, mood:'talk', bg:2, fx:{petals:.2}}, 
+  {say:'', bars:1.15, reveal:['c1']}, // Sẽ sửa nội dung thẻ dưới đây
+  {say:'', bars:1.15, reveal:['c2']}, 
+  {say:'', bars:1.15, reveal:['c3']}, 
+  {say:'', bars:1.4, reveal:['c4']}, 
+  {say:'những giọt nước mắt thầm kín hay sự tận tụy dâng hiến, Chúa đều thấu xem và ghi nhớ', bars:2.2, mood:'shy'}, 
+  
+  {scene:'none', mode:`hero`, say:'vậy nên hôm nay, hãy cứ vui mừng và vững vàng trong ơn của Ngài nhé', bars:2.2, mood:'happy', fx:{petals:1.1}},
+
+  {scene:'health', mode:'side', say:'chúc cậu luôn tràn đầy <em>sức khỏe và ơn tứ</em> — để bước đi phục vụ Ngài buồng vui', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}}, 
+  {scene:'peace', say:'chúc cậu sự <em>bình an vượt quá mọi sự hiểu biết</em> — luôn tĩnh lặng trong sự dẫn dắt của Chúa', bars:2.4, mood:'talk', bg:1}, 
+  {scene:'free', say:'chúc cậu có một đức tin mạnh mẽ, tự do bước đi trong lẽ thật và tình yêu thương', bars:2.3, mood:'talk', bg:0, fx:{lantern:1,meteor:.8}}, 
+  {scene:'love', say:'chúc cậu luôn cảm biết sâu sắc rằng mình là người con gái được Chúa yêu thương trọn vẹn', bars:2.5, mood:'happy', bg:2, fx:{hearts:1,petals:.3}},
+
+  {scene:'none', mode:'hero', say:'“Người nữ kính sợ Đức Giê-hô-va sẽ được khen ngợi”', bars:2, mood:'talk', fx:{petals:.8}}, 
+  {say:'vẻ đẹp của cậu không nằm ở hình thức bên ngoài, mà là một tâm thần dịu dàng, yên lặng — giá trị quý giá trước mặt Đức Chúa Trời', bars:2.6, mood:'shy'},
+
+  {scene:'gift', mode:'side', say:'tớ gửi tặng cậu món quà nhỏ này nè', bars:1.8, mood:'happy', bg:3, fx:{petals:1,meadow:1.1}}, 
+  {say:'một bông hoa tượng trưng cho tình yêu thương và sự thành tín của Ngài không hề tàn phai', bars:2.4, mood:'talk'},
+
+  {scene:'question', mode:'hero', say:'cậu có thấy biết ơn vì mình được làm con của Chúa không?', bars:2, mood:'wink', bg:2, fx:{petals:.3,meteor:1}, wait:true, reveal:['q1']}, 
+  {scene:'final', mode:'side', say:'', mood:'happy', bg:3, fx:{fire:1,petals:.9,meadow:1.5}, wait:true, final:true}
+];
