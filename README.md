@@ -559,16 +559,25 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     <button data-a="yes">rồi nè ✿</button><button data-a="no">chưa nữa…</button>
   </div></section>
 
-  <section class="scene" id="sc-final"><div class="final">
-    <div class="f-sub">chúc mừng ngày</div>
-    <h1>Phụ nữ Việt Nam</h1>
-    <div class="f-date">20 · 10</div>
-    <p class="f-to" id="f-to">gửi người phụ nữ tuyệt vời</p>
-    <p class="f-msg">mong mỗi ngày của cậu đều có hoa, có nắng, có tiếng cười — và có người nhớ đến cậu thật nhiều.</p>
-    <div class="f-act">
-      <button id="b-replay" class="alt">xem lại</button>
+ <section class="scene" id="sc-question">
+    <div class="qbtns rv" id="q1">    
+      <button data-a="yes">rồi nè ✿</button>
+      <button data-a="no">chưa nữa…</button>  
     </div>
-  </div></section>
+  </section>
+
+  <section class="scene" id="sc-final">
+    <div class="final">    
+      <div class="f-sub">mừng ngày phụ nữ</div>    
+      <h1>Phước Hạnh Trong Chúa</h1>    
+      <div class="f-date">20 · 10</div>    
+      <p class="f-to" id="f-to">gửi người nữ tài đức của Chúa</p>    
+      <p class="f-msg">nguyện xin ơn phước, sự bình an và tình yêu thương đời đời của Đức Chúa Trời ở cùng cậu và gia đình trong mọi ngày.</p>    
+      <div class="f-act">      
+        <button id="b-replay" class="alt">xem lại</button>    
+      </div>  
+    </div>
+  </section>
 
   <!-- ===== Nụ — nhân vật gốc ===== -->
   <div id="nu" class="wave" aria-hidden="true">
