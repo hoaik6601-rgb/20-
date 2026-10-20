@@ -558,17 +558,8 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
   <section class="scene" id="sc-question"><div class="qbtns rv" id="q1">
     <button data-a="yes">rồi nè ✿</button><button data-a="no">chưa nữa…</button>
   </div></section>
+  
 
- <section class="scene" id="sc-question">
-    <div class="qbtns rv" id="q1">    
-      <button data-a="yes">rồi nè ✿</button>
-      <button data-a="no">chưa nữa…</button>  
-    </div>
-  </section>
-
-<section class="scene" id="sc-question"><div class="qbtns rv" id="q1">
-<button data-a="yes">rồi nè ✿</button><button data-a="no">chưa nữa…</button>
-</div></section>
 <section class="scene" id="sc-final"><div class="final">
 <div class="f-sub">chúc mừng ngày</div>
 <h1>Phụ nữ Việt Nam</h1>
@@ -640,7 +631,7 @@ const S=[
  {say:'từ Hai Bà Trưng, Bà Triệu thuở dựng nước, đến những người con gái kiên cường của thế kỷ XX', bars:2.4, mood:'talk', reveal:['n3','l3','e23','n4','l4','e24','n5','l5','e35','e45']},
  {say:'và còn những người không có tên trong sách: bà, mẹ, chị, cô giáo… và cả <em>cậu</em> nữa', bars:2.4, mood:'happy', reveal:['n6','l6','e46','e56'], fx:{meteor:2.2,petals:.3}},
 
- {scene:'unseen', say:'có những điều rất nhỏ mà phụ nữ vẫn lặng lẽ làm mỗi ngày…', bars:2, mood:'talk', bg:2, fx:{petals:.2}},
+ {scene:'unseen', say:'có những điều mà cậu vẫn lặng lẽ làm mỗi ngày…', bars:2, mood:'talk', bg:2, fx:{petals:.2}},
  {say:'', bars:1.15, reveal:['c1']},
  {say:'', bars:1.15, reveal:['c2']},
  {say:'', bars:1.15, reveal:['c3']},
@@ -650,7 +641,7 @@ const S=[
 
  {say:'tớ xin gửi cậu bốn lời chúc nhé', bars:1.5, mood:'wave', bg:2},
  {scene:'health', mode:'side', say:'chúc cậu thật nhiều <em>sức khỏe</em> — để có  đi hết những nơi cậu muốn đến', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}},
- {scene:'peace', say:'chúc cậu <em>luôn ngập tràn ơn phước</em>và niềm vui trên mỗi bước đường đi cùng Ngài ', bars:2.2, mood:'talk', bg:1},
+ {scene:'peace', say:'chúc cậu <em>luôn ngập tràn ơn phước</em>và <em>niềm vui</em> trên mỗi bước đường đi cùng Ngài ', bars:2.2, mood:'talk', bg:1},
  {scene:'free', say:'chúc cậu đủ <em>tự do</em> để làm điều mình thích, và đủ dũng cảm để theo đuổi nó', bars:2.5, mood:'talk', bg:0, fx:{lantern:1,meteor:.8}},
  {scene:'love', say:'chúc cậu luôn được <em>yêu thương</em> — đúng cách, đúng người, và cả bởi chính cậu', bars:2.5, mood:'happy', bg:2, fx:{hearts:1,petals:.3}},
 
