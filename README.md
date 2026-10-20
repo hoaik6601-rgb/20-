@@ -570,6 +570,15 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
       <button id="b-replay" class="alt">xem lại</button>
     </div>
   </div></section>
+  <!-- KHUNG CHÈN ẢNH KINH THÁNH VÀO CUỐI -->
+    <div style="margin-top: 15px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,122,184,0.4);">
+      <img src="https://github.com/hoaik6601-rgb/20-10/blob/main/hoa.jpg?raw=true" alt="1 Phi-e-rơ 3:4" style="width: 100%; display: block; border-radius: 10px;">
+    </div>
+
+    <div class="f-act">      
+      <button id="b-link" class="alt" hidden>chép link</button>      
+      <button id="b-replay" class="alt">xem lại</button>    
+    </div>  </div></section>
 
   <!-- ===== Nụ — nhân vật gốc ===== -->
   <div id="nu" class="wave" aria-hidden="true">
