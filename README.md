@@ -570,11 +570,22 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
       <button id="b-replay" class="alt">xem lại</button>
     </div>
   </div></section>
-  <!-- KHUNG CHÈN ẢNH KINH THÁNH VÀO CUỐI -->
-    <div style="margin-top: 15px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,122,184,0.4);">
-      <img src="https://github.com/hoaik6601-rgb/20-10/blob/main/hoa.jpg?raw=true" alt="1 Phi-e-rơ 3:4" style="width: 100%; display: block; border-radius: 10px;">
+ <section class="scene" id="sc-final"><div class="final">    
+    <div class="f-sub">mừng ngày phụ nữ</div>    
+    <h1>Phước Hạnh Trong Chúa</h1>    
+    <div class="f-date">20 · 10</div>    
+    <p class="f-to" id="f-to">gửi người nữ tài đức của Chúa</p>    
+    <p class="f-msg">nguyện xin ơn phước, sự bình an và tình yêu thương đời đời của Đức Chúa Trời ở cùng cậu và gia đình trong mọi ngày.</p>
+    
+    <!-- KHUNG CHÈN ẢNH KINH THÁNH (Chỉ hiện ở trang cuối) -->
+    <div style="margin: 12px 0; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,122,184,0.4); box-shadow: 0 0 15px rgba(255,122,184,0.2);">
+      <img src="LINK_ANH_CUA_BAN_O_DAY" alt="1 Phi-e-rơ 3:4" style="width: 100%; display: block; border-radius: 8px;">
     </div>
 
+    <div class="f-act">      
+      <button id="b-link" class="alt" hidden>chép link</button>      
+      <button id="b-replay" class="alt">xem lại</button>    
+    </div>  </div></section>
     <div class="f-act">      
       <button id="b-link" class="alt" hidden>chép link</button>      
       <button id="b-replay" class="alt">xem lại</button>    
