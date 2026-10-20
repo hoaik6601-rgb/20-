@@ -566,7 +566,6 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     <p class="f-to" id="f-to">gửi người phụ nữ tuyệt vời</p>
     <p class="f-msg">mong mỗi ngày của cậu đều có hoa, có nắng, có tiếng cười — và có người nhớ đến cậu thật nhiều.</p>
     <div class="f-act">
-      <button id="b-link" class="alt" hidden>chép link</button>
       <button id="b-replay" class="alt">xem lại</button>
     </div>
   </div></section>
