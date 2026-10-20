@@ -571,12 +571,6 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     </div>
   </div></section>
 
-  <!-- KHUNG CHÈN ẢNH KINH THÁNH: THU NHỎ VÀ CĂN GIỮA -->
-    <div style="text-align: center; margin: 8px 0;">
-      <img src="<img width="1748" height="1240" alt="image" src="https://github.com/user-attachments/assets/b3aa2c5d-4337-4da7-8753-636eff76b734" />
-" alt="1 Phi-e-rơ 3:4" style="max-width: 260px; width: 100%; height: auto; display: inline-block; border-radius: 8px; border: 1px solid rgba(255,122,184,0.4); box-shadow: 0 0 12px rgba(255,122,184,0.2);">
-    </div>
-
     <div class="f-act">      
       <button id="b-link" class="alt" hidden>chép link</button>      
       <button id="b-replay" class="alt">xem lại</button>    
